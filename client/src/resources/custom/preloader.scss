@@ -1,0 +1,33 @@
+/*
+	====================
+	Page Preloader
+	====================
+*/
+.preloader_waper{
+    height:100vh;
+    background-color: #f8f9fa;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    .preloader{
+      width: 25px;
+      height: 25px;
+      background-color: transparent;
+      border-radius: 50%;
+      border-top: 4px solid #1bb380;
+      border-right: 4px solid #1bb380;
+      border-bottom: 4px solid #1bb380;
+      border-left: 4px solid transparent;
+      animation: rotate .8s linear infinite;
+    }
+  
+    @keyframes rotate {
+      from {
+        transform: rotate(0);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+}

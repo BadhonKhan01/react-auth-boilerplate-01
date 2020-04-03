@@ -1,0 +1,37 @@
+/*
+	====================
+	Login page 
+	====================
+*/
+.login_area{
+    .form_area{
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto; 
+        height: calc(100vh - 200px);
+        .form_header{
+            margin-bottom: 30px;
+            img{
+                max-width: 180px;
+                width: 100%;
+            }
+            p{
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 600;
+                margin: 5px 0 0;
+            }
+        }
+        .form_body{
+            .form-control{
+                background-color:#ededed;
+                border: 0;
+                padding: 25px 15px;
+                font-size: 14px;
+            }
+            .forgot_pass{
+                font-weight: bold;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.auth-username{
+    font-size: 20px;
+}
+.auth-form-area{
+    // .col-form-label{
+    //     padding: 0;
+    // }
+    .form-group{
+        margin: 0;
+    }
+    input,
+    select,
+    .text-danger{
+        font-size: 14px;
+    }
+}
+
+.table{
+    .dateAndTime{
+        display: inline-block;
+        width: 100px;
+    }
+    .table-action{
+        display: inline-block;
+        width: 250px;;
+    }
+}

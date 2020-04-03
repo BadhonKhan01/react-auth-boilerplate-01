@@ -1,0 +1,30 @@
+.media-form-area{
+    .form-group{
+        margin: 0;
+    }
+    input,
+    select,
+    .text-danger{
+        font-size: 14px;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { 
+    .table{
+        .media-list-image{
+            width: 80px;
+            display: inline-block;
+        }
+        .media-list-action,
+        .media-list-date,
+        .media-list-type,
+        .media-list-name{
+            width: 150px;
+            display: inline-block;
+        }
+        .media-list-action{
+            width: 250px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.topLogo{
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.auth_top_nav{
+    background-color: #333;
+    padding: 0 15px;
+    a{
+        &:hover{
+            color: #1bb380 !important;
+        }
+    }
+    .auth_logout{
+        &:hover{
+            color: #1bb380 !important;
+        }
+    }
+    .profile-mata-title{
+        font-size: 13px;
+    }
+    .topProfileMeta{
+        position: absolute;
+        right: 15px;
+        top: 0;
+        width: 100px;
+        height: 100%;
+        &:hover{
+            .profile-meta{
+                display: flex;
+            }
+            .profile-mata-title{
+                color: #1bb380 !important;
+                cursor: pointer;
+            }
+        }
+    }
+    .profile-meta{
+        background: #333;
+        position: absolute;
+        bottom: -90px;
+        right: 0;
+        width: 240px;
+        padding: 10px;
+        display: none;
+        .profile-mata-button{
+            margin-left: 10px;
+            font-size: 13px;
+            line-height: 1.8;
+            a,
+            button{
+                font-size: 13px;
+                line-height: 1.8;
+            }
+        }
+    }
+}

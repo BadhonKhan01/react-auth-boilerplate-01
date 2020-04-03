@@ -1,0 +1,79 @@
+.required-field{
+    border-color: #dc3545;
+}
+.ct_alert{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #ffffffcc;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:before{
+        content: '';
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        width: 50%;
+        height: 50%;
+        box-shadow: 0px 0px 70px 70px rgba(255,255,255,1);
+    }
+    div{
+        z-index: 10;
+    }
+    .ct_alert_text{
+        color: #9E9E9E;
+    }
+    span.fa{
+        font-size: 50px;
+    }
+    span.fa-times{
+        color: #dc3545;
+    }
+    span.fa-check{
+        color: #1bb380;
+    }
+}
+
+/*=======================================
+    Upload Soader
+=======================================*/
+.uploadLoader{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+
+    .preloader{
+        width: 25px;
+        height: 25px;
+        background-color: transparent;
+        border-radius: 50%;
+        border-top: 4px solid #1bb380;
+        border-right: 4px solid #1bb380;
+        border-bottom: 4px solid #1bb380;
+        border-left: 4px solid transparent;
+        animation: rotate .8s linear infinite;
+    }
+
+    @keyframes rotate {
+        from {
+            transform: rotate(0);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+
+}
